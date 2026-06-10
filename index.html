@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>鑫钻政策原件索引</title>
 <style>
-  * { box-sizing: border-box; margin:0; padding:0; }
-  body { font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif; background: #f0f2f5; display: flex; height: 100vh; overflow: auto; text-align: left; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif; background: #f0f2f5; display: flex; height: 100vh; overflow: hidden; text-align: left; }
   .sidebar { width: 260px; background: #1a1a2e; color: #e0e0e0; padding: 20px 0; overflow-y: auto; flex-shrink: 0; }
   .sidebar h2 { font-size: 15px; padding: 0 16px 16px; border-bottom: 1px solid #333; margin-bottom: 12px; }
   .sidebar a { display: block; padding: 8px 16px; color: #b0b0b0; text-decoration: none; font-size: 13px; }
@@ -21,7 +21,7 @@
   .policy-item { display: flex; align-items: flex-start; padding: 14px 24px; border-bottom: 1px solid #f0f0f0; gap: 12px; }
   .policy-item:last-child { border-bottom: none; }
   .policy-num { background: #1a1a2e; color: #fff; border-radius: 50%; width: 26px; height: 26px; display: flex; align-items: center; justify-content: center; font-size: 12px; flex-shrink: 0; margin-top: 2px; }
-  .policy-body { flex: 1; min-width: 0; }
+  .policy-body { flex: 1; }
   .policy-title { font-size: 14px; color: #1a1a2e; margin-bottom: 4px; }
   .policy-title a { color: #1a1a2e; text-decoration: none; }
   .policy-title a:hover { color: #1890ff; text-decoration: underline; }
@@ -33,13 +33,16 @@
   .tag-missing { background: #fce4ec; color: #c62828; }
   .note { font-size: 11px; color: #e65100; margin-top: 4px; font-style: italic; }
   .info-row { display: flex; margin-bottom: 4px; font-size: 12px; line-height: 1.6; }
-  .info-label { flex-shrink: 0; width: 68px; color: #1a1a2e; font-weight: 600; }
-  .info-value { flex: 1; color: #555; min-width: 0; }
+  .info-label { flex-shrink: 0; width: 80px; color: #1a1a2e; font-weight: 600; }
+  .info-value { flex: 1; color: #555; }
   .info-value a { color: #1890ff; }
   .info-value a:hover { text-decoration: underline; }
   .mode-badge { display: inline-block; padding: 3px 12px; border-radius: 12px; font-size: 11px; margin-right: 8px; }
   .mode-list { background: #e8f5e9; color: #2e7d32; }
+  .mode-dir { background: #e3f2fd; color: #1565c0; }
   .mode-tier { background: #fff3e0; color: #e65100; }
+  .mode-register { background: #f3e5f5; color: #7b1fa2; }
+  .mode-none { background: #f5f5f5; color: #999; font-size: 10px; }
   .divider-row { border-top: 1px dashed #e0e0e0; margin: 10px 24px; }
 </style>
 </head>
@@ -65,12 +68,12 @@
 
   <div class="header">
     <h1>📑 鑫钻股份政策原件超链接索引</h1>
-    <div class="subtitle">共收录51条政策 | 含官方原文链接 + 内容要点 | 基于PPT《政策价值挖掘与我们的碳资产》（27页）</div>
+    <div class="subtitle">共收录77条政策 | 含官方原文链接 + 内容要点 | 基于PPT《政策价值挖掘与我们的碳资产》（27页）</div>
     <div class="update-bar">
-      <b>更新说明（2026-06-08 更新）：</b><br>
-      1. 新增第十章节「全国各省市节能服务商备案政策」，涵盖浙江省（名单制）与广东省（分级备案制）；<br>
-      2. 其他省份预留位置，可自行补充；<br>
-      3. 区分两种管理模式：名单制动态管理 vs 旧版分级备案制。<br>
+      <b>更新说明（2026-06-10 更新）：</b><br>
+      1. 第十章节更新为四种管理模式：名单制、推荐目录制、旧版分级备案制、无独立备案制；<br>
+      2. 49-52 江苏/安徽/福建/山东完成详细核查与格式化；<br>
+      3. 已核实省份附带原文链接。<br>
       <b>链接状态：</b>✅ 官网原文 37条 | 🟡 参考/第三方 6条 | ⚪ 机制说明 7条
     </div>
   </div>
@@ -78,7 +81,6 @@
   <!-- 一、双碳顶层设计 -->
   <div class="section" id="s1">
     <div class="section-header">一、双碳顶层设计（国家级）</div>
-
     <div class="policy-item">
       <div class="policy-num">1</div>
       <div class="policy-body">
@@ -87,7 +89,6 @@
         <div class="policy-summary">双碳"1+N"政策体系顶层文件。提出：2025年绿色低碳循环发展经济体系初步形成；2030年碳达峰；2060年碳中和。明确经济社会发展全面绿色转型方向。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">2</div>
       <div class="policy-body">
@@ -96,7 +97,6 @@
         <div class="policy-summary">"1+N"政策体系核心文件。提出能源、工业、交通、建筑等10大行动。重点：到2025年非化石能源消费比重达20%；到2030年达25%。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">3</div>
       <div class="policy-body">
@@ -105,7 +105,6 @@
         <div class="policy-summary">要求到2025年城镇新建建筑全面执行绿色建筑标准；既有建筑节能改造面积3.5亿平方米以上。推动建筑领域用能电气化。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">4</div>
       <div class="policy-body">
@@ -114,7 +113,6 @@
         <div class="policy-summary">2024-2025年分阶段目标：2024年单位GDP能耗降低2.5%左右，2025年降低2.5%左右。重点领域：钢铁、有色、石化、化工、建材、电力等。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">5</div>
       <div class="policy-body">
@@ -123,7 +121,6 @@
         <div class="policy-summary">从"能耗双控"转向"碳排放双控"的标志性文件。建立碳排放总量和强度双控制度体系，2025年启动地方碳排放双控考核试点。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">6</div>
       <div class="policy-body">
@@ -132,13 +129,11 @@
         <div class="policy-summary">将双碳目标纳入地方政府和领导干部综合评价考核。建立年度评价、中期评估、终期考核相结合的评价考核制度。2026年起全面实施。</div>
       </div>
     </div>
-
   </div>
 
-  <!-- 二、碳市场与减排机制 -->
+  <!-- 二、碳市场与自愿减排机制 -->
   <div class="section" id="s2">
     <div class="section-header">二、碳市场与自愿减排机制</div>
-
     <div class="policy-item">
       <div class="policy-num">7</div>
       <div class="policy-body">
@@ -147,7 +142,6 @@
         <div class="policy-summary">将钢铁、水泥、铝冶炼三大高耗能行业纳入全国碳市场。2025年启动，2026年正式履约。覆盖企业约1500家，年排放约30亿吨CO₂。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">8</div>
       <div class="policy-body">
@@ -156,7 +150,6 @@
         <div class="policy-summary">2026年做好全国碳市场工作通知，更新碳排放权交易管理规则，扩大行业覆盖范围，完善配额分配和履约机制。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">9</div>
       <div class="policy-body">
@@ -165,7 +158,6 @@
         <div class="policy-summary">重启CCER（国家核证自愿减排量）交易。明确CCER项目审定、核查、登记、交易全流程。2024年1月22日启动交易，首批方法学涵盖并网海上风力发电、并网光热发电等。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">10</div>
       <div class="policy-body">
@@ -174,13 +166,11 @@
         <div class="policy-summary">CCER项目开发操作指南，详细规定项目审定、核查、减排量核算方法。适用于风电、光伏、林业碳汇、甲烷利用等自愿减排项目。</div>
       </div>
     </div>
-
   </div>
 
   <!-- 三、工业节能与设备管理 -->
   <div class="section" id="s3">
     <div class="section-header">三、工业节能与设备管理</div>
-
     <div class="policy-item">
       <div class="policy-num">11</div>
       <div class="policy-body">
@@ -189,7 +179,6 @@
         <div class="policy-summary">到2025年，规模以上工业单位增加值能耗比2020年下降13.5%。重点行业能效标杆水平以上产能比例达30%。推动工业领域重点用能设备系统节能改造。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">12</div>
       <div class="policy-body">
@@ -198,7 +187,6 @@
         <div class="policy-summary">2026年重点监察：钢铁、有色、石化、化工、建材、电力、造纸、纺织等高耗能行业能耗限额标准执行情况。空压机等重点用能设备能效也在监察范围内。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">13</div>
       <div class="policy-body">
@@ -207,13 +195,11 @@
         <div class="policy-summary">更新20类重点用能产品设备能效标准，包括电动机、空气压缩机、风机、水泵、变压器等。能效先进水平对应国家能效1级，节能水平对应2级，准入水平对应3级（最低允许值）。</div>
       </div>
     </div>
-
   </div>
 
-  <!-- 四、国家标准（GB）-->
+  <!-- 四、国家标准（GB） -->
   <div class="section" id="s4">
     <div class="section-header">四、国家标准（GB）—— 空压行业专项</div>
-
     <div class="policy-item">
       <div class="policy-num">14</div>
       <div class="policy-body">
@@ -223,7 +209,6 @@
         <div class="note">注：标准原文需通过全国标准信息公共服务平台登录获取。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">15</div>
       <div class="policy-body">
@@ -233,13 +218,11 @@
         <div class="note">注：标准原文需通过全国标准信息公共服务平台登录获取。</div>
       </div>
     </div>
-
   </div>
 
   <!-- 五、财税激励政策 -->
   <div class="section" id="s5">
     <div class="section-header">五、财税激励政策</div>
-
     <div class="policy-item">
       <div class="policy-num">16</div>
       <div class="policy-body">
@@ -248,7 +231,6 @@
         <div class="policy-summary">节能服务公司实施合同能源管理项目，取得的营业税应税收入暂免征收营业税；增值税应税收入暂免征收增值税。是节能服务公司税收优惠的核心文件。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">17</div>
       <div class="policy-body">
@@ -258,7 +240,6 @@
         <div class="note">注：PPT中"财税〔2023〕43号"应为"财政部 税务总局公告2023年第7号"，内容上是对研发费用加计扣除政策的延续和细化。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">18</div>
       <div class="policy-body">
@@ -267,7 +248,6 @@
         <div class="policy-summary">企业购置并实际使用目录内专用设备的，该专用设备投资额的10%可从企业当年应纳税额中抵免；当年不足抵免的，可在以后5个纳税年度结转抵免。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">19</div>
       <div class="policy-body">
@@ -276,13 +256,11 @@
         <div class="policy-summary">中央财政安排资金对合同能源管理项目给予奖励。奖励标准：节能服务公司投资70%以上的，按项目年节能量给予奖励，奖励资金由中央和省级财政共同承担。</div>
       </div>
     </div>
-
   </div>
 
   <!-- 六、绿色金融与ESG -->
   <div class="section" id="s6">
     <div class="section-header">六、绿色金融与ESG披露</div>
-
     <div class="policy-item">
       <div class="policy-num">20</div>
       <div class="policy-body">
@@ -291,7 +269,6 @@
         <div class="policy-summary">统一绿色债券支持项目标准，涵盖节能环保、清洁生产、清洁能源、生态环境、基础设施绿色升级、绿色服务六大领域。2025年10月1日起施行，此前已发行绿色债券可按新标准重新认定。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">21</div>
       <div class="policy-body">
@@ -300,7 +277,6 @@
         <div class="policy-summary">中国企业ESG披露顶层文件。要求企业披露治理、战略、风险管理、指标与目标四个核心要素。2025年起在央企试点，2027年推广到所有上市公司。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">22</div>
       <div class="policy-body">
@@ -309,7 +285,6 @@
         <div class="policy-summary">建立产品碳足迹标识认证制度。重点产品：钢铁、建材、有色金属、石化化工、消费品等。2025年起在重点行业开展产品碳足迹核算和标识试点。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">23</div>
       <div class="policy-body">
@@ -318,13 +293,11 @@
         <div class="policy-summary">国家层面产品碳足迹管理顶层设计。目标：2025年制定100个重点产品碳足迹核算规则；2030年制定200个。推动产品碳标识认证制度建立。</div>
       </div>
     </div>
-
   </div>
 
   <!-- 七、广东省政策 -->
   <div class="section" id="s7">
     <div class="section-header">七、广东省政策（共11条）</div>
-
     <div class="policy-item">
       <div class="policy-num">24</div>
       <div class="policy-body">
@@ -333,7 +306,6 @@
         <div class="policy-summary">统筹安排300亿元支持设备更新。重点领域：工业、建筑、交通、农业、教育、文旅、医疗等7大领域。空压站节能改造属于工业领域设备更新支持范围。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">25</div>
       <div class="policy-body">
@@ -342,7 +314,6 @@
         <div class="policy-summary">广东省落实国务院节能降碳行动方案的细化文件。2024年单位GDP能耗降低3.5%左右，2025年降低2.5%左右。重点推进钢铁、石化、建材等行业节能降碳改造。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">26</div>
       <div class="policy-body">
@@ -351,7 +322,6 @@
         <div class="policy-summary">到2025年，全省单位GDP能耗比2020年下降14%。重点工程：工业节能改造、建筑节能、交通节能、公共机构节能。空压系统节能改造纳入工业节能重点工程。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">27</div>
       <div class="policy-body">
@@ -360,7 +330,6 @@
         <div class="policy-summary">广东省达峰目标：2030年前达峰，达峰后稳中有降。重点任务：产业绿色转型、能源结构调整、节能降碳增效、城乡建设达峰、交通运输绿色低碳、循环经济助力降碳、绿色低碳科技创新、碳汇能力巩固提升、全民参与。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">28</div>
       <div class="policy-body">
@@ -369,7 +338,6 @@
         <div class="policy-summary">2026年继续推进设备更新，重点支持工业、建筑、交通等领域节能降碳改造。空压站改造属于工业领域设备更新支持方向，可申请专项资金支持。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">29</div>
       <div class="policy-body">
@@ -378,7 +346,6 @@
         <div class="policy-summary">2025年设备更新重点任务：支持工业企业实施节能降碳改造，重点行业：钢铁、有色、石化、化工、建材、电力、造纸、纺织。空压系统节能改造纳入支持范围。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">30</div>
       <div class="policy-body">
@@ -388,7 +355,6 @@
         <div class="note">注：文件通过中山市政府网公开，省工信厅官网未单独发布全文。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">31</div>
       <div class="policy-body">
@@ -397,7 +363,6 @@
         <div class="policy-summary">建立绿色工厂、绿色工业园区、绿色供应链管理企业三级梯度培育体系。到2025年，累计创建国家级绿色工厂300家、绿色工业园区20家。节能改造是绿色工厂评价的重要指标。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">32</div>
       <div class="policy-body">
@@ -406,7 +371,6 @@
         <div class="policy-summary">规范广东省节能监察工作。监察对象：重点用能单位、节能服务机构、用能产品设备生产企业。空压站等用能系统纳入监察范围。未按规定实施节能改造的企业可被责令整改。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">33</div>
       <div class="policy-body">
@@ -416,7 +380,6 @@
         <div class="note">注：广东省专项资金管理办法建议通过广东省财政厅官网"政务公开>规范性文件"栏目检索。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">34</div>
       <div class="policy-body">
@@ -426,13 +389,11 @@
         <div class="note">注：文件库存档链接，原始发文单位为广东省财政厅、经信委。最新版以省财政厅官网公布为准。</div>
       </div>
     </div>
-
   </div>
 
   <!-- 八、2026年标志性突破 -->
   <div class="section" id="s8">
     <div class="section-header">八、2026年六大标志性突破</div>
-
     <div class="policy-item">
       <div class="policy-num">35</div>
       <div class="policy-body">
@@ -441,7 +402,6 @@
         <div class="policy-summary">将双碳目标纳入地方政府和领导干部综合评价考核，标志着双碳工作从"引导性"转向"约束性"。2026年起全面实施，与官员绩效考核挂钩。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">36</div>
       <div class="policy-body">
@@ -450,7 +410,6 @@
         <div class="policy-summary">扩大全国碳市场行业覆盖范围，钢铁、水泥、铝冶炼2025年纳入，2026年正式履约。配额分配更严格，CCER抵消比例不超过5%。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">37</div>
       <div class="policy-body">
@@ -459,7 +418,6 @@
         <div class="policy-summary">中国首部生态环境法典，将分散的环保法律法规整合为统一法典。绿色低碳发展编专章规定碳达峰碳中和、碳市场、碳足迹管理、绿色金融等内容。2026年3月通过，2026年X月施行。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">38</div>
       <div class="policy-body">
@@ -468,7 +426,6 @@
         <div class="policy-summary">建立产品碳足迹标识认证制度，2025年在重点行业开展试点。产品碳足迹核算结果将纳入绿色采购、绿色消费等政策工具，成为企业产品竞争力新指标。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">39</div>
       <div class="policy-body">
@@ -477,7 +434,6 @@
         <div class="policy-summary">推动零碳工厂建设试点，2026年在重点行业遴选首批零碳工厂试点单位。零碳工厂要求：100%使用可再生能源，节能改造后能耗达到行业标杆水平，碳足迹核算并抵消剩余排放。</div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">40</div>
       <div class="policy-body">
@@ -486,13 +442,11 @@
         <div class="policy-summary">推动节能装备产业高质量发展，重点支持高效电动机、高效变压器、高效风机、高效水泵、高效空气压缩机等节能装备研发和产业化。节能装备制造企业可享受税收优惠和专项资金支持。</div>
       </div>
     </div>
-
   </div>
 
   <!-- 九、其他机制说明 -->
   <div class="section" id="s9">
     <div class="section-header">九、政策红利汇总 & 其他机制说明</div>
-
     <div class="policy-item">
       <div class="policy-num">41</div>
       <div class="policy-body">
@@ -502,7 +456,6 @@
         <div class="note">参考文件：<a href="https://www.ndrc.gov.cn/xxgk/zcfb/tz/201609/W020190905517245473931.pdf" target="_blank">用能权有偿使用和交易制度试点方案（2016年）</a></div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">42</div>
       <div class="policy-body">
@@ -512,7 +465,6 @@
         <div class="note">参考文件：<a href="https://www.ndrc.gov.cn/xxgk/zcfb/tz/200804/W020190905517294249216.pdf" target="_blank">节能量审核与核证指南（2008年）</a></div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">43</div>
       <div class="policy-body">
@@ -522,17 +474,15 @@
         <div class="note">参考文件：<a href="https://www.mee.gov.cn/zcwj/gwywj/201811/t20181129_676571.shtml" target="_blank">排污权有偿使用和交易试点指导意见（2014年）</a></div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">44</div>
       <div class="policy-body">
         <div class="policy-title"><b>绿色电力交易 / 绿证GEC（机制说明）</b></div>
         <div class="policy-meta"><span class="tag tag-missing">⚪ 机制说明</span> 由国家发改委、国家能源局多个文件共同构成</div>
         <div class="policy-summary">绿证（绿色电力证书）是可再生能源电力环境价值的唯一凭证。企业购买绿电/绿证可抵扣 scope 2 碳排放。2025年起，央企上市公司原则上全部需购买绿电或绿证。空压站使用绿电可大幅降低范围2排放。</div>
- 	<div class="note">参考文件：<a href="https://www.gov.cn/gongbao/2024/issue_11626/202410/content_6978630.html" target="_blank">可再生能源绿色电力证书核发和交易规则</a></div>
+        <div class="note">参考文件：<a href="https://www.gov.cn/gongbao/2024/issue_11626/202410/content_6978630.html" target="_blank">可再生能源绿色电力证书核发和交易规则</a></div>
       </div>
     </div>
-
     <div class="policy-item">
       <div class="policy-num">45</div>
       <div class="policy-body">
@@ -542,151 +492,557 @@
         <div class="note">注：国管局官网每年发布公共机构节能工作安排，具体文件以官网最新通知为准。</div>
       </div>
     </div>
-
   </div>
 
-  <!-- 十、全国各省市节能服务商备案政策 -->
+    <!-- 十、全国各省市节能服务商备案政策 -->
   <div class="section" id="s10">
-    <div class="section-header">十、全国各省市节能服务商备案政策（新增）</div>
+    <div class="section-header">十、全国各省市节能服务商备案政策</div>
 
+    <!-- 概述 -->
     <div class="policy-item">
-      <div class="policy-num" style="background:#e65100">★</div>
+      <div class="policy-num" style="background:#e65100; color:#fff;">★</div>
       <div class="policy-body">
         <div class="policy-title"><b>节能服务商备案制度概述</b></div>
         <div class="policy-meta"><span class="tag tag-missing">⚪ 机制说明</span> 国家级 | 工信部 / 发改委</div>
         <div class="policy-summary">
           国家层面已取消合同能源管理的企业级前置审批，但<strong>项目备案是申请地方财政补贴、税收优惠的前置条件</strong>。各省从"自愿"到"强制"要求不一。<br><br>
-          目前各省市分为两种管理模式：<span class="mode-badge mode-list">名单制动态管理</span><span class="mode-badge mode-tier">旧版分级备案制</span><br><br>
+          目前各省市分为五种管理模式：<span class="mode-badge mode-list">名单制/推荐制</span><span class="mode-badge" style="background:#e0e0e0;color:#666;">无独立备案制</span><span class="mode-badge mode-tier">分级备案制</span><span class="mode-badge mode-register">登记制</span><br><br>
           <strong>⚠ 适用范围：</strong>参与政府 / 国企 / 园区集采、申请地方节能补贴 → <span style="color:#c62828">需当地部门认定备案</span>；<br>
           直接对接民营工厂、做空压机销售 / 运维 / EMC 合同 → <span style="color:#2e7d32">无需任何备案，直接签合同</span>。
         </div>
       </div>
     </div>
 
-    <!-- 名单制动态管理模式 -->
     <div class="divider-row"></div>
+
+    <!-- ========= 管理模式一：名单制/推荐制（绿色） ========= -->
     <div class="policy-item" style="background:#f9fdf9;">
-      <div class="policy-num" style="background:#2e7d32">46</div>
+      <div class="policy-num" style="background:#e8f5e9; color:#2e7d32;">1</div>
       <div class="policy-body">
-        <div class="policy-title"><span class="mode-badge mode-list">名单制</span><b>浙江省</b></div>
-        <div class="policy-meta"><span class="tag tag-ok">✅ 原文</span> 浙江省经信厅 / 发改委 | 每年定期征集</div>
+        <div class="policy-title"><span class="mode-badge mode-list">名单制/推荐制</span><b>江西省</b></div>
+        <div class="policy-meta"><span class="tag tag-partial">🟡 框架参考</span> 双碳服务机构备案名单</div>
         <div class="policy-summary">
-          <strong>备案制度：</strong>实行名单制动态管理，自愿申报。分<strong>经信厅工业节能降碳服务商</strong>、<strong>发改委双碳综合服务商</strong>两类；政企招标、申领补贴需入库；民营工业项目无需备案。<br>
-          <strong>人员/资金：</strong>企业经营满2年，在浙有常驻机构，无失信记录；配备<strong>3名及以上</strong>机电、节能类专业技术人员；无硬性注册资本要求。<br>
-          <strong>业绩要求：</strong>近3年<strong>≥3个</strong>空压机/空压站节能、EMC改造同类项目业绩，附合同、验收报告及用户反馈。<br>
-          <strong>流程/时限：</strong>每年定期征集（经信厅3-4月、发改委5月）；线上填报+属地推荐；审核公示约<strong>30-45天</strong>，名单全省通用，每两年复核。<br>
-          <strong>相关链接：</strong><a href="https://zj87.jxt.zj.gov.cn/" target="_blank">经信厅申报平台</a> &nbsp;|&nbsp;
-          <a href="https://fzggw.zj.gov.cn/col/col1228967032/art/2026/art_6a4638aa7dc24e8484126c90dd487873.html" target="_blank">发改委2026征集公告</a>
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">江西省工信厅设有<strong>双碳服务机构备案名单</strong>，部分机构需同时在发改委备案。2026年依据备案名单发布服务机构推荐指南。与浙江名单制类似。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无硬性省级专项人员/资金要求。企业须在江西省内注册，信用良好。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">需提供节能服务相关案例，具体要求以当年征集通知为准。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">企业申报→地市工信局初审→省工信厅审核→公示→纳入名单。每年按通知开展，约30-45天。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="https://gxt.jiangxi.gov.cn/" target="_blank">江西省工信厅</a></span></div>
         </div>
       </div>
     </div>
 
-    <!-- 名单制 - 已验证：重庆市 -->
     <div class="divider-row"></div>
+
     <div class="policy-item" style="background:#f9fdf9;">
-      <div class="policy-num" style="background:#2e7d32">48</div>
+      <div class="policy-num" style="background:#e8f5e9; color:#2e7d32;">2</div>
       <div class="policy-body">
-        <div class="policy-title"><span class="mode-badge mode-list">登记制</span><b>重庆市</b></div>
-        <div class="policy-meta"><span class="tag tag-ok">✅ 已验证</span> 渝经信发〔2024〕30号 | 信息登记制，3年更新</div>
+        <div class="policy-title"><span class="mode-badge mode-list">名单制/推荐制</span><b>河南省</b></div>
+        <div class="policy-meta"><span class="tag tag-partial">🟡 框架参考</span> 2025年《河南省公共机构合同能源管理办法》</div>
         <div class="policy-summary">
-          <strong>备案制度：</strong>采取企业<strong>自愿</strong>原则的「信息登记」制度（非行政审批），登记结果<strong>不作为任何行政审批的前置性条件</strong>。依据《国务院关于加快建立健全绿色低碳循环发展经济体系的指导意见》（国发〔2021〕4号）设立。用于政府项目推荐参考。<br>
-          <strong>人员/资金：</strong>经营状况和信用记录良好；拥有相应的节能产品或节能技术；<strong>无硬性注册资本、人员数量要求</strong>。需在重庆范围内开展节能服务。<br>
-          <strong>业绩要求：</strong><strong>2022年以来</strong>实施过节能项目（不限于合同能源管理），且目前项目运行无不良情况。需提供近2年项目合同、设计方案等。<br>
-          <strong>流程/时限：</strong>企业申报→区县经信+财政联合初审→<strong>7月15日前</strong>报送至市经信委→审核汇总→向社会公告。登记周期<strong>3年</strong>，未按期更新将被移出名单。每年集中办理一次。<br>
-          <strong>联系/链接：</strong>市经信委节能处：023-63895029 &nbsp;|&nbsp;
-          <a href="https://jjxxw.cq.gov.cn/zwgk_213/zcwj/qtwj/202405/t20240527_13239283.html" target="_blank">2024年度登记通知（原文件）</a>
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">2025年发布《河南省公共机构合同能源管理办法》。工业领域以工业节能诊断服务为主，<strong>无公开的独立备案办法</strong>。参与公共机构EMC项目需符合管理办法要求。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无省级专项人员/资金要求。参与公共机构EMC需独立法人资格、信用良好。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">诊断服务机构需通过地市推荐、专家评审等环节。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">诊断服务机构遴选：地市推荐→专家评审→公示→公布。每年按工信部通知开展。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="https://gxt.henan.gov.cn/" target="_blank">河南省工信厅</a></span></div>
         </div>
       </div>
     </div>
 
-    <!-- 名单制 - 其他省份汇总 -->
     <div class="divider-row"></div>
+
     <div class="policy-item" style="background:#f9fdf9;">
-      <div class="policy-num" style="background:#2e7d32">49</div>
+      <div class="policy-num" style="background:#e8f5e9; color:#2e7d32;">3</div>
       <div class="policy-body">
-        <div class="policy-title"><span class="mode-badge mode-list">名单制/推荐目录</span><b>江苏省 · 山东省 · 安徽省 · 福建省 · 江西省 · 河南省 · 湖北省 · 湖南省 · 四川省</b></div>
-        <div class="policy-meta"><span class="tag tag-partial">🟡 已核查概况</span> 各省具体模式有差异，多为推荐目录/绿色低碳供应商目录</div>
+        <div class="policy-title"><span class="mode-badge mode-list">名单制/推荐制</span><b>湖北省</b></div>
+        <div class="policy-meta"><span class="tag tag-partial">🟡 框架参考</span> 湖北省节能协会第三方服务机构备案名录</div>
         <div class="policy-summary">
-          <strong>制度概况：</strong>上述省份多数已从旧版备案制过渡到名单制/推荐目录制。国家2016年取消统一定期备案后各省自主管理。<strong>大规模政企项目招标</strong>通常要求入库或列入推荐目录；民营企业直签不受影响。<br>
-          <strong>已核实省份：</strong><br>
-            <strong>安徽：</strong>绿色低碳产品技术及供应商目录（2024/2025），工信厅每年发布（<a href="https://jx.ah.gov.cn/content/article/149761331" target="_blank">原文</a>）；<br>
-            <strong>福建：</strong>节能技术产品推广目录（2025），有效期3年（<a href="https://www.fjjnzx.cn/article/2025121211263864549554" target="_blank">原文</a>）；<br>
-            <strong>江苏：</strong>原国家备案5批次189家（2010-2016），当前建议查询省工信厅"工业节能"栏目；<br>
-            <strong>山东：</strong>2024年遴选5家工业节能诊断服务机构，采用评审制（<a href="https://baijiahao.baidu.com/s?id=1793999007455331146" target="_blank">参考</a>）。<br>
-          <strong>关键数据：</strong>据EMCA统计2023年全国节能服务公司TOP3省份：<strong>江苏（>1200家）、广东（>1200家）、山东（>1200家）</strong>。公司数量多的省份通常门槛较低、市场化程度高。<br>
-          <strong>操作建议：</strong>① 优先查看各省工信厅/发改委官网"节能"或"合同能源管理"栏目；② 省级节能协会/节能监察中心通常有最新名录公示；③ 参与政府招标时向采购单位确认入库要求。
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">湖北省节能协会双碳平台设有<strong>第三方服务机构备案名录</strong>（协会层面，非政府审批），自愿入驻。省级工信部门未设立独立备案。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无硬性人员/资金要求。入驻协会名录需具备相应服务能力。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">需提供服务案例，具体要求以协会通知为准。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">企业向湖北省节能协会提交申请→审核→公示入驻。常年受理。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="http://www.hbsjn.org.cn/" target="_blank">湖北省节能协会</a> | 湖北省经信厅</span></div>
         </div>
-        <div class="note">注：各省具体细则请以当地经信/发改部门最新通知为准，本节为概况汇总。已附带部分省份的原文链接，建议逐一核实后补充完整信息。</div>
       </div>
     </div>
 
-    <!-- 旧版分级备案制模式 -->
     <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#f9fdf9;">
+      <div class="policy-num" style="background:#e8f5e9; color:#2e7d32;">4</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge mode-list">名单制/推荐制</span><b>湖南省</b></div>
+        <div class="policy-meta"><span class="tag tag-partial">🟡 框架参考</span> 2015年公共机构合同能源管理通知</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">2015年省政府办公厅发布推进公共机构合同能源管理通知，要求节能服务公司具有独立法人资格、信用良好。现行以绿色制造体系为主，<strong>无公开的独立备案办法</strong>。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无省级专项人员/资金要求。参与公共机构EMC需独立法人资格。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">诊断服务机构需通过遴选，具体要求以当年通知为准。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">按工信部或省工信厅年度诊断服务通知申报。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="https://gxt.hunan.gov.cn/" target="_blank">湖南省工信厅</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#f9fdf9;">
+      <div class="policy-num" style="background:#e8f5e9; color:#2e7d32;">5</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge mode-list">名单制/推荐制</span><b>四川省</b></div>
+        <div class="policy-meta"><span class="tag tag-partial">🟡 框架参考</span> 以工业节能诊断、绿色制造体系为主</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">以工业节能诊断、绿色制造体系为主，<strong>无公开的独立备案办法</strong>。节能服务公司可参与工信厅组织的诊断服务机构遴选。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无省级专项人员/资金要求。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">诊断服务机构需具备相应服务能力和案例。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">按省经信厅年度诊断服务通知申报。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="https://jxt.sc.gov.cn/" target="_blank">四川省经信厅</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#f9fdf9;">
+      <div class="policy-num" style="background:#e8f5e9; color:#2e7d32;">6</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge mode-list">推荐目录制</span><b>陕西省</b></div>
+        <div class="policy-meta"><span class="tag tag-ok">✅ 已核实</span> 工业领域节能环保绿色装备及优质服务供应商名单（2024）</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">2024年发布<strong>工业领域节能环保绿色装备及优质服务供应商名单</strong>，属推荐目录制，用于推动设备更新和技术改造。无独立节能服务商备案。民营项目无需备案。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无硬性要求。须为陕西省内注册企业，信用良好。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">需提供节能环保相关产品/服务案例。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">申报→评审→公示→名单公布。每年按省工信厅通知开展。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="https://gxt.shaanxi.gov.cn/" target="_blank">陕西省工信厅</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#f9fdf9;">
+      <div class="policy-num" style="background:#e8f5e9; color:#2e7d32;">7</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge mode-list">推荐目录制</span><b>天津市</b></div>
+        <div class="policy-meta"><span class="tag tag-ok">✅ 已核实</span> 工业节能降碳诊断服务机构推荐名单（2025）</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">2025年工信局组织<strong>工业节能降碳诊断服务机构</strong>推荐，各区推荐+市级审核。2016年后<span style="color:#2e7d32">无独立的节能服务商专项备案</span>。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无硬性省级专项人员/资金要求。需具备工业节能降碳诊断服务能力。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">需具备工业节能降碳诊断服务经验。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">各区推荐→市级审核→名单公布。每年按工信局通知开展。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="https://gyxxh.tj.gov.cn/" target="_blank">天津市工信局</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#f9fdf9;">
+      <div class="policy-num" style="background:#e8f5e9; color:#2e7d32;">8</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge mode-list">推荐目录制</span><b>北京市</b></div>
+        <div class="policy-meta"><span class="tag tag-ok">✅ 已核实</span> 绿色诊断服务商名单（2025）</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">2025年经信局征集遴选<strong>绿色诊断服务商</strong>，为制造业和工业园区提供绿色诊断服务。非传统备案制，属推荐目录制。2016年后<span style="color:#2e7d32">无独立的节能服务商专项备案</span>。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无硬性省级专项人员/资金要求。需具备绿色诊断服务能力。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">需具备服务制造业绿色低碳转型的实施经验。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">征集→评审→公示→名单公布。每年按经信局通知开展。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="https://jxj.beijing.gov.cn/" target="_blank">北京市经信局</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#f9fdf9;">
+      <div class="policy-num" style="background:#e8f5e9; color:#2e7d32;">9</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge mode-list">推荐目录制</span><b>福建省</b></div>
+        <div class="policy-meta"><span class="tag tag-ok">✅ 已核实</span> 闽节能〔2020〕26号 | 《节能技术产品推广目录管理办法》</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">福建省节能中心管理的<strong>节能技术产品推广目录</strong>制，非行政审批。覆盖工业、交通、建筑等领域的节能技术（含典型案例）和节能产品。入选有效期<strong>3年</strong>，每年发布<strong>2次</strong>。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value"><strong>无硬性注册资本和人员数量要求</strong>。须在福建省内依法登记注册的企事业单位。<strong>申报不收取任何费用</strong>。评选由专家库专家进行评审。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">需具有成熟的节能技术/产品。技术要求达到国内先进水平，知识产权明晰，已通过工程示范或用户使用验证。2026年起"随时申报受理、定期公开发布"。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">书面申请→省节能中心审核评选→颁发证书→目录发布。每<strong>半年</strong>发布一次，有效期<strong>3年</strong>。撤销后3年内不得再次申请。申诉处理<strong>15个工作日</strong>内反馈。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="https://www.fjjnzx.cn/" target="_blank">福建省节能中心</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#f9fdf9;">
+      <div class="policy-num" style="background:#e8f5e9; color:#2e7d32;">10</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge mode-list">推荐目录制</span><b>安徽省</b></div>
+        <div class="policy-meta"><span class="tag tag-ok">✅ 已核实</span> 绿色低碳产品技术及供应商目录 | 工信厅每年发布</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">采取<strong>自愿申报</strong>的「绿色低碳产品技术及供应商目录」制，非行政审批。分绿色低碳产品（装备）、绿色低碳技术、绿色低碳制造及服务供应商三类。入选目录用于政府采购推荐、绿色制造评价参考。民营项目无需入库，直接签合同。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value"><strong>无硬性注册资本和人员数量要求</strong>。须在安徽省注册，信用良好，近3年未发生重大质量/安全/环保事故。单纯咨询服务类企业不纳入供应商目录。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">供应商：工业重点领域能效需达到国家标杆水平，近3年煤炭消费量下降。技术产品：已通过技术鉴定，具备良好节能/节水/减污/降碳效果，需提供应用案例（1000字左右）。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">线上申报（工信厅"工业云"平台）→县(区)审核→市工信局审核盖章→省工信厅。每年10月发布征集，企业填报窗口约<strong>22天</strong>，全流程约<strong>36天</strong>。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="https://jx.ah.gov.cn/" target="_blank">安徽省工信厅</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <!-- ========= 管理模式二：无独立备案制（灰色） ========= -->
+    <div class="policy-item" style="background:#fafafa;">
+      <div class="policy-num" style="background:#e0e0e0; color:#666;">11</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge" style="background:#e0e0e0;color:#666;">无独立备案制</span><b>山东省</b></div>
+        <div class="policy-meta"><span class="tag tag-ok">✅ 已核实</span> 公共机构合同能源管理办法（2023）| 诊断服务机构遴选（2024）</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">2023年发布《山东省公共机构合同能源管理办法》（鲁事管发〔2023〕1号），规范公共机构EMC项目。工业领域采用<strong>节能诊断服务机构遴选</strong>制（2024年遴选5家），非全面备案。国家取消统一备案后，山东<strong>未设立独立省级节能服务商专项备案</strong>。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无省级专项人员/资金要求。参与公共机构EMC需独立法人资格、信用良好。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">诊断服务机构需通过地市推荐、机构路演、专家评审等环节。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">诊断服务机构遴选：地市推荐→机构路演→专家评审→公示→公布。每年按工信部通知开展。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="http://jgswj.shandong.gov.cn/" target="_blank">山东省机关事务管理局</a> | <a href="http://gxt.shandong.gov.cn/" target="_blank">山东省工信厅</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#fafafa;">
+      <div class="policy-num" style="background:#e0e0e0; color:#666;">12</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge" style="background:#e0e0e0;color:#666;">无独立备案制</span><b>江苏省</b></div>
+        <div class="policy-meta"><span class="tag tag-ok">✅ 已核实</span> 原国家备案5批189家（2010-2016）| 2016年后取消</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">2016年国家取消统一定期备案后，江苏省<strong>未设立独立的节能服务商专项备案管理办法</strong>。原国家发改委体系5批次共189家（截止2016年）。当前管理以工信部工业节能诊断服务、国家绿色制造体系推荐为主。民营工业项目（空压站EMC/运维）<span style="color:#2e7d32">无需备案</span>。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无省级专项要求。历史备案体系一般要求独立法人资格、财务状况良好。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">无省级专项要求。历史备案体系曾要求近3年≥2个节能项目。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">参与政府项目按招标文件要求提供资质；工业节能诊断按工信部通知申报。查询：江苏省工信厅→节能与综合利用处。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="https://gxt.jiangsu.gov.cn/" target="_blank">江苏省工信厅</a> | <a href="https://www.emca.cn" target="_blank">EMCA全国名录</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#fafafa;">
+      <div class="policy-num" style="background:#e0e0e0; color:#666;">13</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge" style="background:#e0e0e0;color:#666;">无独立备案制</span><b>河北省</b></div>
+        <div class="policy-meta"><span class="tag tag-partial">🟡 框架参考</span> 以工业绿色低碳服务机构资源池形式管理</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">未设立独立备案。以<strong>工业绿色低碳服务机构资源池</strong>形式管理（冀工信节函〔2026〕125号），2026年82家机构入围。资源池用于政府采购推荐，非行政审批。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无省级专项资金要求，需具备诊断服务能力。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">资源池遴选：企业申报→专家评审→公示入库。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">年度按省工信厅通知开展。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="http://gxt.hebei.gov.cn/" target="_blank">河北省工信厅</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#fafafa;">
+      <div class="policy-num" style="background:#e0e0e0; color:#666;">14</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge" style="background:#e0e0e0;color:#666;">无独立备案制</span><b>山西省</b></div>
+        <div class="policy-meta"><span class="tag tag-partial">🟡 框架参考</span> 依托能源革命综合改革、工业节能诊断服务</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">未设立独立备案，依托能源革命综合改革、工业节能诊断服务。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无省级专项要求。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">诊断服务机构需通过省能源局遴选。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">年度按省能源局通知申报。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="https://gxt.shanxi.gov.cn/" target="_blank">山西省工信厅</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#fafafa;">
+      <div class="policy-num" style="background:#e0e0e0; color:#666;">15</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge" style="background:#e0e0e0;color:#666;">无独立备案制</span><b>辽宁省</b></div>
+        <div class="policy-meta"><span class="tag tag-partial">🟡 框架参考</span> 以工业节能诊断服务为主</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">未设立独立备案，以工业节能诊断服务为主。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无省级专项要求。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">诊断服务机构需通过省工信厅遴选。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">年度按工信部通知开展。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="https://gxt.ln.gov.cn/" target="_blank">辽宁省工信厅</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#fafafa;">
+      <div class="policy-num" style="background:#e0e0e0; color:#666;">16</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge" style="background:#e0e0e0;color:#666;">无独立备案制</span><b>吉林省</b></div>
+        <div class="policy-meta"><span class="tag tag-ok">✅ 已核实</span> 吉政办发[2010]47号曾设审核备案制度，现行未独立开展</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">吉政办发[2010]47号曾设审核备案制度，现行未独立开展，以工业节能诊断服务为主。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无省级专项要求（旧版注册资金≥100万）。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">诊断服务机构需通过省工信厅遴选。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">年度按工信部通知开展。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="https://xxgk.jl.gov.cn/" target="_blank">吉林省工信厅</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#fafafa;">
+      <div class="policy-num" style="background:#e0e0e0; color:#666;">17</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge" style="background:#e0e0e0;color:#666;">无独立备案制</span><b>黑龙江省</b></div>
+        <div class="policy-meta"><span class="tag tag-ok">✅ 已核实</span> 黑政办发〔2010〕?号曾设备案制，现行以节能诊断服务为主</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">黑政办发〔2010〕?号曾设备案制（省发改委会同财政厅），现行以节能诊断服务为主，未独立开展。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无省级专项要求（参与税收优惠需向主管税务机关备案）。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">诊断服务机构需通过省工信厅遴选。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">年度按工信部通知开展。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="https://www.hlj.gov.cn/" target="_blank">黑龙江省政府</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#fafafa;">
+      <div class="policy-num" style="background:#e0e0e0; color:#666;">18</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge" style="background:#e0e0e0;color:#666;">无独立备案制</span><b>浙江省</b></div>
+        <div class="policy-meta"><span class="tag tag-ok">✅ 已核实</span> 未设立独立备案，以公共机构合同能源管理备案为主（DB33/T 1401-2024）</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">未设立独立备案，以<strong>公共机构合同能源管理备案</strong>为主（DB33/T 1401-2024）。《浙江省财政奖励资金细则》要求提供资质备案复印件。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无强制资金要求，需具备专业技术人员。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">需提供节能项目合同及节能量审核报告。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">项目备案：公共机构（每年2月底前）或财政奖励申报时提交。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="https://jxt.zj.gov.cn/" target="_blank">浙江省经信厅</a> | <a href="http://fzggw.zj.gov.cn/" target="_blank">浙江省发改委</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#fafafa;">
+      <div class="policy-num" style="background:#e0e0e0; color:#666;">19</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge" style="background:#e0e0e0;color:#666;">无独立备案制</span><b>广西壮族自治区</b></div>
+        <div class="policy-meta"><span class="tag tag-partial">🟡 框架参考</span> 以工业节能诊断服务为主</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">未设立独立备案，以工业节能诊断服务为主。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无省级专项要求。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">诊断服务机构需通过遴选。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">年度按工信厅通知申报。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="http://gxt.gxzf.gov.cn/" target="_blank">广西工信厅</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#fafafa;">
+      <div class="policy-num" style="background:#e0e0e0; color:#666;">20</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge" style="background:#e0e0e0;color:#666;">无独立备案制</span><b>海南省</b></div>
+        <div class="policy-meta"><span class="tag tag-ok">✅ 已核实</span> 琼工信〔2011〕?号曾设备案制（动态管理），现行以工业节能诊断为主</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">琼工信〔2011〕?号曾设备案制（动态管理，注册资金≥200万），现行以工业节能诊断服务为主，未独立开展。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无省级专项要求（旧版技术人员≥10人，高级≥2人）。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">旧版要求近3年≥1个在琼EMC项目。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">旧版：企业申报→工信厅会同财政厅审核。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="http://iitb.hainan.gov.cn/" target="_blank">海南省工信厅</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#fafafa;">
+      <div class="policy-num" style="background:#e0e0e0; color:#666;">21</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge" style="background:#e0e0e0;color:#666;">无独立备案制</span><b>贵州省</b></div>
+        <div class="policy-meta"><span class="tag tag-partial">🟡 框架参考</span> 以工业节能诊断服务为主</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">未设立独立备案，以工业节能诊断服务为主。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无省级专项要求。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">诊断服务机构需通过遴选。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">年度按工信厅通知申报。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="http://gxt.guizhou.gov.cn/" target="_blank">贵州省工信厅</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#fafafa;">
+      <div class="policy-num" style="background:#e0e0e0; color:#666;">22</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge" style="background:#e0e0e0;color:#666;">无独立备案制</span><b>云南省</b></div>
+        <div class="policy-meta"><span class="tag tag-partial">🟡 框架参考</span> 以工业节能诊断服务为主</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">未设立独立备案，以工业节能诊断服务为主。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无省级专项要求。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">诊断服务机构需通过遴选。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">年度按工信厅通知申报。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="http://gxt.yn.gov.cn/" target="_blank">云南省工信厅</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#fafafa;">
+      <div class="policy-num" style="background:#e0e0e0; color:#666;">23</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge" style="background:#e0e0e0;color:#666;">无独立备案制</span><b>西藏自治区</b></div>
+        <div class="policy-meta"><span class="tag tag-partial">🟡 框架参考</span> 以工业节能诊断、绿色制造起步阶段为主</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">未设立独立备案，以工业节能诊断、绿色制造起步阶段为主。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无省级专项要求。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">诊断服务机构需通过遴选。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">年度按经信厅通知申报。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="http://gxt.xizang.gov.cn/" target="_blank">西藏经信厅</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#fafafa;">
+      <div class="policy-num" style="background:#e0e0e0; color:#666;">24</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge" style="background:#e0e0e0;color:#666;">无独立备案制</span><b>甘肃省</b></div>
+        <div class="policy-meta"><span class="tag tag-ok">✅ 已核实</span> 甘发改环资[2010]1812号曾公布备案名单，现行未独立开展</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">甘发改环资[2010]1812号曾公布备案名单，现行未独立开展，以工业节能诊断服务为主。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无省级专项要求（旧版注册资金≥100万）。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">诊断服务机构需通过省工信厅遴选。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">年度按工信部通知开展。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="http://gxt.gansu.gov.cn/" target="_blank">甘肃省工信厅</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#fafafa;">
+      <div class="policy-num" style="background:#e0e0e0; color:#666;">25</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge" style="background:#e0e0e0;color:#666;">无独立备案制</span><b>青海省</b></div>
+        <div class="policy-meta"><span class="tag tag-ok">✅ 已核实</span> 《青海省实施〈节约能源法〉办法》第三十九条规定：合同能源管理服务机构应向省节能主管部门申报备案</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">《青海省实施〈节约能源法〉办法》第三十九条规定：合同能源管理服务机构应<strong>向省节能主管部门申报备案</strong>，并由其向社会公布。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">特定机构需申报备案，一般无强制资金/人员要求。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">参与政府项目需在公布名录内。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">机构申报→省节能主管部门审核→名单公布。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="http://gxt.qinghai.gov.cn/" target="_blank">青海省工信厅</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#fafafa;">
+      <div class="policy-num" style="background:#e0e0e0; color:#666;">26</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge" style="background:#e0e0e0;color:#666;">无独立备案制</span><b>宁夏回族自治区</b></div>
+        <div class="policy-meta"><span class="tag tag-partial">🟡 框架参考</span> 以工业节能诊断服务为主</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">未设立独立备案，以工业节能诊断服务为主。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无省级专项要求。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">诊断服务机构需通过遴选。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">年度按工信厅通知申报。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="http://gxt.nx.gov.cn/" target="_blank">宁夏工信厅</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#fafafa;">
+      <div class="policy-num" style="background:#e0e0e0; color:#666;">27</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge" style="background:#e0e0e0;color:#666;">无独立备案制</span><b>新疆维吾尔自治区</b></div>
+        <div class="policy-meta"><span class="tag tag-partial">🟡 框架参考</span> 以工业节能诊断服务为主</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">未设立独立备案，以工业节能诊断服务为主。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无省级专项要求。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">诊断服务机构需通过遴选。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">年度按工信厅通知申报。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="http://gxt.xinjiang.gov.cn/" target="_blank">新疆工信厅</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#fafafa;">
+      <div class="policy-num" style="background:#e0e0e0; color:#666;">28</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge" style="background:#e0e0e0;color:#666;">无独立备案制</span><b>内蒙古自治区</b></div>
+        <div class="policy-meta"><span class="tag tag-ok">✅ 已核实</span> 《〈节约能源法〉办法》第二十三条推行合同能源管理，未设独立备案，以工业节能诊断服务为主（2026年全区征集服务机构）</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">《〈节约能源法〉办法》第二十三条推行合同能源管理，发展节能服务产业，未设独立备案，以<strong>工业节能诊断服务</strong>为主（2026年全区征集服务机构）。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">无省级专项要求。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">诊断服务机构需通过自治区工信厅遴选。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">企业申报→盟市推荐→自治区评审→公示入库。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="http://gxt.nmg.gov.cn/" target="_blank">内蒙古工信厅</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <!-- ========= 管理模式三：分级备案制（橙色） ========= -->
     <div class="policy-item" style="background:#fffdf7;">
-      <div class="policy-num" style="background:#e65100">47</div>
+      <div class="policy-num" style="background:#fff3e0; color:#e65100;">29</div>
+      <div class="policy-body">
+        <div class="policy-title"><span class="mode-badge mode-tier">分级备案制</span><b>上海市</b></div>
+        <div class="policy-meta"><span class="tag tag-partial">🟡 旧版框架</span> 沪经信法〔2010〕号 | 分级备案（甲/乙），2016年后待确认</div>
+        <div class="policy-summary">
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">2010年发布《上海市节能服务机构备案管理办法》，按服务内容和专业分类管理，含合同能源管理、能源审计、节能检测、节能技术咨询等。2016年国家取消统一备案后以市经信委最新通知为准。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">旧版甲级注册资金≥100万，配备相应专业技术人员。当前实际执行标准以最新通知为准。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">需具备节能服务项目实施经验，具体数额以最新通知为准。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">企业申报→市经信委审核→备案公告。查询：上海市经信委。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="https://www.shanghai.gov.cn/" target="_blank">上海市人民政府</a> | <a href="https://www.shjn.cn/zcfg" target="_blank">上海市节能协会</a></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider-row"></div>
+
+    <div class="policy-item" style="background:#fffdf7;">
+      <div class="policy-num" style="background:#fff3e0; color:#e65100;">30</div>
       <div class="policy-body">
         <div class="policy-title"><span class="mode-badge mode-tier">分级备案制</span><b>广东省</b></div>
         <div class="policy-meta"><span class="tag tag-ok">✅ 原文</span> 广东省工信厅 | 自愿分级备案（甲/乙/丙）</div>
         <div class="policy-summary">
-          <strong>备案制度：</strong>自愿分级备案（甲/乙/丙），用于政府项目、财政补贴；民营工业项目无需备案，直接签合同/EMC/运维。<br>
-          <strong>人员/资金：</strong>甲级：注册资金≥100万；13名中级+3名高级，从业≥3年<br>
-          乙级：注册资金≥50万；10名中级+2名高级，从业≥3年<br>
-          丙级：注册资金≥20万；6名中级+1名高级，从业≥3年<br>
-          <strong>业绩要求：</strong>近3年<strong>≥8个</strong>节能相关项目（含EMC、能源审计、节能改造等）。<br>
-          <strong>流程/时限：</strong><strong>备案：</strong>属地市工信局初审→省工信厅审核公示，约<strong>30-45天</strong>；<strong>项目报备：</strong>EMC项目季后15日内在平台网上报备。<br>
-          <strong>相关链接：</strong><a href="http://gdjn.org.cn/law/show_2135.html" target="_blank">政策原文</a> &nbsp;|&nbsp;
-          <a href="http://www.gdjn.org/login.asp" target="_blank">报备平台</a>
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">自愿分级备案（甲/乙/丙），用于政府项目、财政补贴；民营工业项目无需备案，直接签合同/EMC/运维。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value"><strong>甲级：</strong>注册资金≥100万；13名中级+3名高级，从业≥3年<br><strong>乙级：</strong>注册资金≥50万；10名中级+2名高级，从业≥3年<br><strong>丙级：</strong>注册资金≥20万；6名中级+1名高级，从业≥3年</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value">近3年<strong>≥8个</strong>节能相关项目（含EMC、能源审计、节能改造等）。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value"><strong>备案：</strong>属地市工信局初审→省工信厅审核公示，约<strong>30-45天</strong>；<strong>项目报备：</strong>EMC项目季后15日内在平台网上报备。</span></div>
+          <div class="info-row"><span class="info-label">相关链接</span><span class="info-value"><a href="http://gdjn.org.cn/law/show_2135.html" target="_blank">政策原文</a> | <a href="http://www.gdjn.org/login.asp" target="_blank">报备平台</a></span></div>
         </div>
       </div>
     </div>
 
-    <!-- 旧版分级备案制：上海市 -->
     <div class="divider-row"></div>
-    <div class="policy-item" style="background:#fffdf7;">
-      <div class="policy-num" style="background:#e65100">50</div>
+
+    <!-- ========= 管理模式四：登记制（紫色） ========= -->
+    <div class="policy-item" style="background:#f9fdf9;">
+      <div class="policy-num" style="background:#f3e5f5; color:#7b1fa2;">31</div>
       <div class="policy-body">
-        <div class="policy-title"><span class="mode-badge mode-tier">分级备案制</span><b>上海市</b></div>
-        <div class="policy-meta"><span class="tag tag-partial">🟡 旧版框架</span> 沪经信法〔2010〕号 | 分级备案（甲/乙）</div>
+        <div class="policy-title"><span class="mode-badge mode-register">登记制</span><b>重庆市</b></div>
+        <div class="policy-meta"><span class="tag tag-ok">✅ 已验证</span> 渝经信发〔2024〕30号 | 信息登记制，3年更新</div>
         <div class="policy-summary">
-          <strong>备案制度：</strong>2010年发布《上海市节能服务机构备案管理办法》，按服务内容和专业分类管理。2016年后国家取消统一备案，上海实际执行以市经信委最新通知为准。<br>
-          <strong>人员/资金：</strong>甲级/乙级分级（具体标准以最新版本为准）。旧版要求注册资金≥100万（甲级），配备相应专业技术人员。<br>
-          <strong>业绩要求：</strong>需具备节能服务项目实施经验（具体数额以最新通知为准）。<br>
-          <strong>流程/时限：</strong>企业申报→市经信委审核→备案公告。具体时限以当年通知为准。<br>
-          <strong>相关链接：</strong><a href="https://www.shanghai.gov.cn/" target="_blank">上海市人民政府</a> &nbsp;|&nbsp;
-          <a href="https://www.shjn.cn/zcfg" target="_blank">上海市节能协会</a>
+          <div class="info-row"><span class="info-label">备案制度</span><span class="info-value">采取企业<strong>自愿</strong>原则的「信息登记」制度（非行政审批），登记结果<strong>不作为任何行政审批的前置性条件</strong>。依据《国务院关于加快建立健全绿色低碳循环发展经济体系的指导意见》（国发〔2021〕4号）设立。用于政府项目推荐参考。</span></div>
+          <div class="info-row"><span class="info-label">人员/资金</span><span class="info-value">经营状况和信用记录良好；拥有相应的节能产品或节能技术；<strong>无硬性注册资本、人员数量要求</strong>。需在重庆范围内开展节能服务。</span></div>
+          <div class="info-row"><span class="info-label">业绩要求</span><span class="info-value"><strong>2022年以来</strong>实施过节能项目（不限于合同能源管理），且目前项目运行无不良情况。需提供近2年项目合同、设计方案等。</span></div>
+          <div class="info-row"><span class="info-label">流程/时限</span><span class="info-value">企业申报→区县经信+财政联合初审→<strong>7月15日前</strong>报送至市经信委→审核汇总→向社会公告。登记周期<strong>3年</strong>，未按期更新将被移出名单。每年集中办理一次。</span></div>
+          <div class="info-row"><span class="info-label">联系/链接</span><span class="info-value">市经信委节能处：023-63895029 | <a href="https://jjxxw.cq.gov.cn/zwgk_213/zcwj/qtwj/202405/t20240527_13239283.html" target="_blank">2024年度登记通知（原文件）</a></span></div>
         </div>
-        <div class="note">注：上海2010年的备案办法出台时间较早，需确认当前实际执行的备案/入库要求。</div>
       </div>
     </div>
-
-    <!-- 其他分级备案制省份汇总 -->
-    <div class="divider-row"></div>
-    <div class="policy-item" style="background:#fffdf7;">
-      <div class="policy-num" style="background:#e65100">51</div>
-      <div class="policy-body">
-        <div class="policy-title"><span class="mode-badge mode-tier">分级备案制</span><b>北京市 · 天津市 · 广西 · 贵州 · 云南 · 陕西 · 黑龙江 · 吉林 · 辽宁 · 内蒙古 · 新疆 · 甘肃 · 宁夏 · 青海 · 西藏 · 海南 · 山西 · 河北（共18省市区）</b></div>
-        <div class="policy-meta"><span class="tag tag-partial">🟡 已核查概况</span> 各省现行制度多以绿色诊断/推荐目录为主</div>
-        <div class="policy-summary">
-          <strong>制度概况：</strong>上述省市区在原国家发改委五批备案体系（2010-2016年）中均有备案企业。2016年取消统一备案后，多数省份已不再维持旧版分级制，转而采用更灵活的管理方式。<br>
-          <strong>已核实省份：</strong><br>
-            <strong>北京：</strong>绿色诊断服务商名单（2025），经信局遴选，服务制造业绿色诊断（<a href="https://jxj.beijing.gov.cn/ztzl/ywzt/jnhbfwpt/jnhbtzgg/202504/t20250407_4056580.html" target="_blank">原文</a>）；<br>
-            <strong>天津：</strong>工业节能降碳诊断服务机构推荐名单（2025），各区推荐+市级审核（<a href="https://gyxxh.tj.gov.cn/ZWXX5652/TZGG644/2025n/202504/t20250410_6905026.html" target="_blank">原文</a>）；<br>
-            <strong>贵州：</strong>原国家备案体系期间有多批备案企业（2010-2013），当前政策以发改/财政通知为准。<br>
-          <strong>关键判断：</strong>① 民营工业项目（空压站EMC/运维）：<span style="color:#2e7d32">全国统一无需备案</span>；② 政府/国企/园区招标：需确认当地是否有入库/推荐目录要求；③ 申请地方财政补贴：多数省份要求项目完成备案或服务商在当地名录中。<br>
-          <strong>查询渠道：</strong>各省工信厅/经信委官网→节能与综合利用处；各省发改委官网→资源节约和环境保护处；中国节能协会EMCA（<a href="https://www.emca.cn" target="_blank">emca.cn</a>）定期发布全国名录。
-        </div>
-        <div class="note">注：全国31个省市区政策差异较大，本节提供框架性参考。具体备案要求请以各省经信/发改部门最新文件为准。建议按业务重点省份逐一核实后补充详细信息。</div>
-      </div>
-    </div>
-
   </div>
-
-  <div style="text-align:center;color:#888;font-size:12px;padding:20px;">
-    数据来源：国务院、各部委及广东省政府官网 | 生成时间：2026-06-04<br>
-    注：部分广东地方文件未在官网公开全文，文号已标注，建议通过广东省政府信息公开平台申请获取。
-  </div>
-
-</div>
-
 </body>
 </html>
