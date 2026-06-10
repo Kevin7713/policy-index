@@ -43,6 +43,13 @@
   .mode-tier { background: #fff3e0; color: #e65100; }
   .mode-none { background: #f5f5f5; color: #999; font-size: 10px; }
   .divider-row { border-top: 1px dashed #e0e0e0; margin: 10px 24px; }
+
+  .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; padding: 20px; }
+  .grid-item { background: #fff; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); overflow: hidden; }
+  .grid-item .policy-header { background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 12px 16px; }
+  .grid-item .policy-body { padding: 16px; }
+  .grid-item .info-row { margin-bottom: 8px; font-size: 12px; line-height: 1.5; }
+  .grid-item .info-label { display: inline-block; font-weight: 600; color: #1a1a2e; margin-right: 4px; }
 </style>
 </head>
 <body>
@@ -565,6 +572,8 @@
       </div>
     </div><!-- 名单制动态管理模式 -->
     <div class="divider-row"></div>
+    <div class="grid-container">
+
     <div class="policy-item" style="background:#f9fdf9;">
       <div class="policy-num" style="background:#2e7d32">46</div>
       <div class="policy-body">
@@ -844,7 +853,9 @@
         <div class="note">注：这12省区占全国面积一半以上，2016年后均未建立独立备案制。日常业务直接签合同完全不受影响。</div>
       </div>
     </div>
-  </div>
+  
+    </div>
+</div>
 
   <div style="text-align:center;color:#888;font-size:12px;padding:20px;">
     数据来源：国务院、各部委及广东省政府官网 | 生成时间：2026-06-04<br>
